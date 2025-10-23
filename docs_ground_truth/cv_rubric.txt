@@ -1,0 +1,17 @@
+CV Match Evaluation (1–5 scale per parameter)
+
+Parameter	Description	Scoring Guide
+Technical Skills Match (Weight:	Alignment with job requirements (backend,	1 = Irrelevant skills, 2 = Few overlaps, 3 =
+40%)	databases, APIs, cloud, AI/LLM).	Partial match, 4 = Strong match, 5 =
+		Excellent match + AI/LLM exposure
+Experience Level (Weight:	Years of experience and project complexity.	1 = <1 yr / trivial projects, 2 = 1–2 yrs, 3 =
+25%)		2–3 yrs with mid-scale projects, 4 = 3–4
+		yrs solid track record, 5 = 5+ yrs / high-
+		impact projects
+Relevant Achievements	Impact of past work (scaling, performance,	1 = No clear achievements, 2 = Minimal
+(Weight: 20%)	adoption).	improvements, 3 = Some measurable
+		outcomes, 4 = Significant contributions,
+		5 = Major measurable impact
+Cultural / Collaboration Fit	Communication, learning mindset,	1 = Not demonstrated, 2 = Minimal, 3 =
+(Weight: 15%)	teamwork/leadership.	Average, 4 = Good, 5 = Excellent and
+		well-demonstrated

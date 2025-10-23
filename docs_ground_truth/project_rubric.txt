@@ -1,0 +1,17 @@
+Project Deliverable Evaluation (1–5 scale per parameter)
+
+Parameter	Description	Scoring Guide
+Correctness (Prompt &	Implements prompt design, LLM chaining, RAG	1 = Not implemented, 2 = Minimal
+Chaining) (Weight: 30%)	context injection.	attempt, 3 = Works partially, 4 = Works
+		correctly, 5 = Fully correct + thoughtful
+Code Quality & Structure	Clean, modular, reusable, tested.	1 = Poor, 2 = Some structure, 3 = Decent
+(Weight: 25%)		modularity, 4 = Good structure + some
+		tests, 5 = Excellent quality + strong tests
+Resilience & Error Handling	Handles long jobs, retries, randomness, API	1 = Missing, 2 = Minimal, 3 = Partial
+(Weight: 20%)	failures.	handling, 4 = Solid handling, 5 = Robust,
+		production-ready
+Documentation & Explanation	README clarity, setup instructions, trade-off	1 = Missing, 2 = Minimal, 3 = Adequate, 4
+(Weight: 15%)	explanations.	= Clear, 5 = Excellent + insightful
+Creativity / Bonus (Weight: 10%)	Extra features beyond requirements.	1 = None, 2 = Very basic, 3 = Useful
+		extras, 4 = Strong enhancements, 5 =
+		Outstanding creativity
