@@ -1,4 +1,4 @@
-# 🤖 AI-Powered Candidate Screening Service
+# AI-Powered Candidate Screening Service
 
 This project is a backend service built as part of a case study.  
 Its purpose is to **automate the initial screening of job candidates** by using AI to evaluate CVs and project reports.
@@ -7,7 +7,7 @@ The service uses a **Retrieval-Augmented Generation (RAG)** architecture to comp
 
 ---
 
-## 🚀 Key Features
+## Key Features
 
 - **API Service (FastAPI)** – Provides RESTful endpoints for uploading documents and managing the evaluation process.  
 - **AI Evaluation Pipeline** – An LLM chain that evaluates the CV and project report separately, then synthesizes the results.  
@@ -17,14 +17,14 @@ The service uses a **Retrieval-Augmented Generation (RAG)** architecture to comp
 
 ---
 
-## 🧩 Bonus Features
+## Bonus Features
 
 - **Dynamic RAG Management** – API endpoints (`GET /documents`, `POST /documents`) let you dynamically manage ground truth documents in ChromaDB.  
 - **Interactive Admin Dashboard** – A simple Streamlit dashboard (`dashboard.py`) for uploading files, running evaluations, and viewing real-time results.  
 
 ---
 
-## 🏗️ Design Choices & Architecture
+## Design Choices & Architecture
 
 ### **Backend Framework: FastAPI**
 > Chosen for its high performance, built-in async support, and automatic OpenAPI docs.
@@ -38,7 +38,7 @@ The service uses a **Retrieval-Augmented Generation (RAG)** architecture to comp
 ### **Embedding Model: all-MiniLM-L6-v2**
 > Local model via `sentence-transformers`; fast and dependency-free (no API required).
 
-### 🧠 **LLM: Google Gemini (`gemini-2.0-flash`)**
+### **LLM: Google Gemini (`gemini-2.0-flash`)**
 > The latest generation of Google's Gemini models, offering **higher reasoning accuracy**, **faster inference**, and full support for **JSON Mode** — allowing the AI to produce well-structured, machine-parseable output.  
 > 
 > This project uses `response_mime_type="application/json"` to ensure that the LLM always returns a strict JSON response, drastically improving the stability of the evaluation pipeline.
@@ -49,7 +49,7 @@ The service uses a **Retrieval-Augmented Generation (RAG)** architecture to comp
 
 ---
 
-## ⚙️ Installation & Running Instructions
+## Installation & Running Instructions
 
 Follow these steps to run the complete system (Backend API, AI Worker, and Frontend Dashboard).
 
